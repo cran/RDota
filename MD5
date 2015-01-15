@@ -1,0 +1,13 @@
+a56d90430c3eedb08a2742b4fe67daf9 *DESCRIPTION
+df390c53434517b304ac5db487184641 *NAMESPACE
+efa3e2618968b4db70aaf6f42bee17c7 *R/RDota-internal.R
+1e67126427eb41d60179aee8c9b4f5e2 *R/quickpick.R
+fd5fde7d402a8486f180ec4ac33842bd *R/showwinrate.R
+6a180006c8abc99be2571e5652719810 *data/antitable.rda
+e6719d866438cd1edbebbc9f91c075e3 *data/matchtable.rda
+8cee5f3420144f65479593237c572e3f *data/winrate.rda
+02964bb56f3b62c2fb4cea6abf273ba0 *man/antitable.Rd
+8b3cabd21d51bac6bbd6ab01c729fef1 *man/matchtable.Rd
+956002234d68d73632213815435299ae *man/quickpick.Rd
+3c525a2d23d18a668a144c7e09c7e8c1 *man/showwinrate.Rd
+44f20998d70a1c5f5422ad6d3d2298d2 *man/winrate.Rd
