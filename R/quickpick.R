@@ -66,11 +66,11 @@ function(enemy=c("","","","",""),teammate=c("","","","","")){
         index2[i]=temp
     }
   }
-  win=data.frame(name=winrate[,col],winrate=rep(0,time=109))
-  win2=data.frame(name=winrate[,col],winrate=rep(0,time=109))
+  win=data.frame(name=winrate[,col],winrate=rep(0,time=nrow(winrate)))
+  win2=data.frame(name=winrate[,col],winrate=rep(0,time=nrow(winrate)))
   if (n!=0){subtable=winrate[index[1:n],c(1,4)]}
   if (n2!=0){subtable2=winrate[index2[1:n2],c(1,4)]}
-  for (i in 1:109){
+  for (i in 1:nrow(winrate)){
     winr=winrate[i,4]
     loser=1-winrate[i,4]
     if (n!=0){
